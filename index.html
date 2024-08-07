@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/money-exchange.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>Currency Converter</h1>
+      </header>
+      <main>
+        <div class="converter">
+          <div class="input-group">
+            <input id="amount-input" type="text" placeholder="Enter amount" />
+            <select id="from-currency"></select>
+            <select id="to-currency"></select>
+            <button id="convert-button">Convert</button>
+          </div>
+          <p id="result"></p>
+        </div>
+      </main>
+      <footer>
+        <p>&copy; 2024 Currency Converter</p>
+      </footer>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
